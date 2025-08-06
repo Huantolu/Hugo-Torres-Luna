@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-patron-textura-fibra-carbono-negra_1017-33436.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Name{
+    margin-left: 5%;
+    background-color: rgb(110, 5, 5);
+    display: inline-block;
+    width: 90%;
+    height: 20%;
+    border-radius: 1pc;
+    border-color: red;
+    border-style: double;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 120px;
+}
+.div1{
+    background-color: rgb(223, 216, 216);
+    width: 90%;
+    height: 74%;
+    margin-left: 5%;
+    border-radius: 1pc;
+    border-color: red;
+    border-style: double;
+    position: relative;
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: calc(50% - 75px);
+}
+.p1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
