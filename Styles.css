@@ -39,3 +39,12 @@ img{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.botones{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    height: 30px;
+    width: 120px;
+}
