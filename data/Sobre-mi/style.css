@@ -4,10 +4,11 @@ body{
     background-size: cover;
     background-position: center;
 }
-.d1{    background-color: rgba(95, 12, 12, 0.473);
+.d1{    
+    background-color: rgba(95, 12, 12, 0.473);
     display: inline-block;
     height: 15%;
-    width: 60%;
+    width: 55%;
     border-radius: 10pc;
     border: 2px;
     border-color: red;
@@ -17,11 +18,16 @@ body{
     text-align: center;
     color: white;    
 }
+p{
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
 .d2{
     margin-top: 20px;
     background-color: rgba(95, 12, 12, 0.473);
     display: inline-block;
-    width: 60%;
+    width: 55%;
     border-radius: 3pc;
     border-style: double;
     border-color: red;
@@ -44,4 +50,46 @@ h3{
 }
 .left{
     display: inline-block;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    border-radius: 5pc;
+    height: 50%;
+    margin-left: 25%;
+    border: 8px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 5%;
+}
+.rigth{
+    background-color: rgba(95, 12, 12, 0.473);
+    border-radius: 3pc;
+    border-style: double;
+    border-color: red;
+    width: 43%;
+    display: inline-block;
+    float: inline-end;
+
+}
+.proyect0{
+    text-align: center;
+}
+.proyect{
+    color: white;
+    width: 500px;
+    margin-left: 40px;
+}
+.botones{
+    margin-top: 100pxpx;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    height: 30px;
+    width: 120px;
+    border-radius: 50pc;
+    border-color: rgb(110, 5, 5);
+    background-color: rgb(131, 131, 131);
+    color: white;
 }
