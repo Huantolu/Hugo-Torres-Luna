@@ -8,10 +8,6 @@ body{
     background-size: cover;
     background-position: center center;
 }
-#cuerpo {
-    display: flex;
-    flex-direction: column;
-}
 #box {
     display: flex;
     align-items: center;
@@ -51,12 +47,12 @@ body{
     align-items: center;
     justify-content: center;
 }
-.foto{
+#foto{
     border-radius: 5pc;
     border: 8px;
     border-color: black;
     border-style: solid;
-    margin-top: 5%;
+    margin-top: 15px;
 }
 .botones {
     margin-top: 30px;
