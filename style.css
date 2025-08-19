@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-patron-textura-fibra-carbono-negra_1017-33436.jpg);
-    background-repeat: no-repeat;
+    background-image: url(data/BG.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 #container {
     display: flex;
@@ -22,54 +21,60 @@ body{
     height: 600px;
     margin-top: 75px;
 }
-.Name{
+.box1 {
     background-color: rgb(110, 5, 5);
     width: auto;
     height: 100px;
     border-radius: 1pc;
+    border-end-end-radius: 0;
+    border-end-start-radius: 0;
     border-color: red;
     border-style: double;
 }
-.div1{
-    background-color: rgb(223, 216, 216);
+.box2 {
+    background-color: rgb(220, 220, 220);
     width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 500px;
     border-radius: 1pc;
+    border-start-start-radius: 0;
+    border-start-end-radius: 0;
     border-color: red;
     border-style: double;
     position: relative;
 }
-.div1 h1 {
+.box2 h1 {
     text-align: center;
     color: rgb(0, 0, 0);
     margin-top: 120px;
 }
-.div1 img{
+.box2 img{
     border-radius: 50%;
     position: absolute;
     top: -15%;
     left: calc(50% - 70px);
 }
-.p1{
+.box2 p{
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .box-botones {
     margin-top: 150px;
     display: flex;
-
+    gap: 15px;
 }
 button{
     height: 30px;
     width: 120px;
     margin: 5%;
-    border-radius: 50pc;
+    border-radius: 5pc;
     border-color: rgb(110, 5, 5);
     background-color: rgb(131, 131, 131);
     color: white;
+}
+button:hover {
+    background-color: black;
 }
 @media (max-width: 1000px){
     #box {
@@ -83,11 +88,6 @@ button{
 }
 @media (max-width: 600px){
     #box {
-        width: 400px;
-    }
-}
-@media (max-width: 400px){
-    #box {
-        width: auto;
+        width: 100%;
     }
 }

@@ -4,32 +4,54 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-patron-textura-fibra-carbono-negra_1017-33436.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/data/BG.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 #cuerpo {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
-.box {
+#box {
     display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 15px;
 }
 .box-left {
-    background-color: gray;
-    width: 400px;
-    height: 800px;
-}
-.box-right {
-    background-color: bisque;
-    width: 500px;
-    height: 800px;
+    flex: 1;
 }
 .content-me{
     text-align: center;
-    color: white;   
-    margin: 10px; 
+    margin: 10px;
+    background-color: rgb(220, 220, 220);
+    border-color: red;
+    border-style: double;
+    border-radius: 1pc;
+    padding: 5px;
+}
+.content {
+    margin: 10px;
+    background-color: rgb(220, 220, 220);
+    border-color: red;
+    border-style: double;
+    border-radius: 1pc;
+    padding: 5px;
+}
+.content p{
+    text-align: center;
+}
+.box-right {
+    background-color: rgb(220, 220, 220);
+    border-color: red;
+    border-style: double;
+    border-radius: 1pc;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 .foto{
     border-radius: 5pc;
@@ -38,17 +60,25 @@ body{
     border-style: solid;
     margin-top: 5%;
 }
-.botones{
-    margin-top: 100pxpx;
-    margin-bottom: 91.5px;
+.botones {
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
 }
-button{
+button {
     height: 30px;
     width: 120px;
-    border-radius: 50pc;
+    border-radius: 5pc;
     border-color: rgb(110, 5, 5);
     background-color: rgb(131, 131, 131);
     color: white;
+}
+button:hover {
+    background-color: black;
+}
+@media (max-width: 800px) {
+    #box {
+        flex-direction: column;
+        text-align: center;
+    }
 }
