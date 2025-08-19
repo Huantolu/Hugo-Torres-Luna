@@ -1,85 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-image: url(https://img.freepik.com/vector-gratis/fondo-patron-textura-fibra-carbono-negra_1017-33436.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.d1{    
-    background-color: rgba(95, 12, 12, 0.473);
-    display: inline-block;
-    height: 15%;
-    width: 55%;
-    border-radius: 10pc;
-    border: 2px;
-    border-color: red;
-    border-style: double;
+#cuerpo {
+    display: flex;
+    flex-direction: column;
 }
-.name{
+.box {
+    display: flex;
+}
+.box-left {
+    background-color: gray;
+    width: 400px;
+    height: 800px;
+}
+.box-right {
+    background-color: bisque;
+    width: 500px;
+    height: 800px;
+}
+.content-me{
     text-align: center;
-    color: white;    
-}
-p{
-    color: white;
-    text-align: center;
-    margin-top: -15px;
-}
-.d2{
-    margin-top: 20px;
-    background-color: rgba(95, 12, 12, 0.473);
-    display: inline-block;
-    width: 55%;
-    border-radius: 3pc;
-    border-style: double;
-    border-color: red;
-}
-.text1{
-    margin-left: 10%;
-    width: 80%;
-}
-h3{
-    color: white;
-}
-.p1{
-    color: white;
-}
-.p2{
-    color: white;
-}
-.p3{
-    color: white;
-    margin-bottom: 56.5px;
-}
-.left{
-    display: inline-block;
+    color: white;   
+    margin: 10px; 
 }
 .foto{
-    display: flex;
-    justify-content: center;
     border-radius: 5pc;
-    height: 50%;
-    margin-left: 25%;
     border: 8px;
     border-color: black;
     border-style: solid;
     margin-top: 5%;
-}
-.rigth{
-    background-color: rgba(95, 12, 12, 0.473);
-    border-radius: 3pc;
-    border-style: double;
-    border-color: red;
-    width: 43%;
-    display: inline-block;
-    float: inline-end;
-
-}
-.proyect0{
-    text-align: center;
-}
-.proyect{
-    color: white;
-    width: 500px;
-    margin-left: 40px;
 }
 .botones{
     margin-top: 100pxpx;
