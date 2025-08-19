@@ -33,15 +33,35 @@ h1{
 .imagenes{
     margin-top: 60px;
 }
+.TF{
+    margin-left: 10%;
+    height: 32%;
+}
 .GML{
-    margin-left: 15%;
+    margin-left: 10%;
     height: 30%;
 }
 .IG{
-    margin-left: 15%;
+    margin-left: 10%;
     height: 30%;
 }
 .FB{
-    margin-left: 15%;
+    margin-left: 10%;
     height: 30%;
+    border-radius: 1pc;
+}
+.botones{
+    margin-top: 7.5%;
+}
+.b1{
+    margin-left: 10%;
+}
+.b2{
+    margin-left: 11.5%;
+}
+.b3{
+    margin-left: 13.5%;
+}
+.b4{
+    margin-left: 13%;
 }
