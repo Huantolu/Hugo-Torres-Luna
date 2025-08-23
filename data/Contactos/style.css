@@ -1,60 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-patron-textura-fibra-carbono-negra_1017-33436.jpg);
+    background-image: url(images/BG.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 h1{
     color: white;
-}
-.Name{
-    margin-left: 5%;
-    background-color: rgb(110, 5, 5);
-    display: inline-block;
-    width: 90%;
-    height: 20%;
-    border-radius: 1pc;
-    border-color: red;
-    border-style: double;
-}
-.title{
     text-align: center;
 }
-.div1{
-    background-color: rgb(223, 216, 216);
-    width: 90%;
-    height: 74%;
-    margin-left: 5%;
+#container{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 24px auto;
+    border-radius: 16px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.15);
+    padding: 32px 24px;
+}
+.Name{
+    background-color: rgb(110, 5, 5);
+    display: flex;
     border-radius: 1pc;
     border-color: red;
     border-style: double;
-    position: relative;
+    justify-content: center;
 }
-.imagenes{
-    margin-top: 60px;
-}
-.F1{
-    width: 80%;
-    margin-left: 10px;
-}
-.botones{
-    margin-top: 10px;
+.div1{
     display: flex;
-    flex-basis: 200px;
+    background-color: rgb(223, 216, 216);
+    border-radius: 1pc;
+    border-color: red;
+    border-style: double;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-.b1{
-    width: 80%;
-    margin-top: 30px;
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.B1{
-    height: 40px;
-    width: 80%;  
-    margin-left: 10px; 
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.buttons button {
     border-radius: 10pc;
     border-color: rgb(110, 5, 5);
+    padding: 7px 5px;
+    margin: 10px;
 }
-.F2{
-    width: 80%;
-    margin-left: 10px;
-    border-radius: 2pc;
+
+@media (max-width: 700px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    #container {
+        padding: 0;
+    }
 }
